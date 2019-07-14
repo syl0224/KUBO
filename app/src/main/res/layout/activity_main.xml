@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="screen density"/>
+
+            <EditText
+                android:id="@+id/screen_density"
+                style="@style/Item.Edit"
+                android:hint="screen density"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.MODEL"/>
+
+            <EditText
+                android:id="@+id/build_model"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.MODEL"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+            <!--  <Button
+                android:id="@+id/rmodel"
+                style="@style/Item.Button"
+                android:text="随机"/> -->
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.MANUFACTURER"/>
+
+            <EditText
+                android:id="@+id/build_manufacturer"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.MANUFACTURER"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.BOARD"/>
+
+            <EditText
+                android:id="@+id/build_board"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.BOARD"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.SERIAL"/>
+
+            <EditText
+                android:id="@+id/build_serial"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.SERIAL"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.BRAND"/>
+
+            <EditText
+                android:id="@+id/build_brand"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.BRAND"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.DEVICE"/>
+
+            <EditText
+                android:id="@+id/build_device"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.DEVICE"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.HARDWARE"/>
+
+            <EditText
+                android:id="@+id/build_hardware"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.HARDWARE"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.HOST"/>
+
+            <EditText
+                android:id="@+id/build_host"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.HOST"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.DISPLAY"/>
+
+            <EditText
+                android:id="@+id/build_display"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.DISPLAY"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.PRODUCT"/>
+
+            <EditText
+                android:id="@+id/build_product"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.PRODUCT"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.BOOTLOADER"/>
+
+            <EditText
+                android:id="@+id/build_bootloader"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.BOOTLOADER"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.FINGERPRINT"/>
+
+            <EditText
+                android:id="@+id/build_fingerprint"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.FINGERPRINT"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.CPU_ABI_1"/>
+
+            <EditText
+                android:id="@+id/build_cpu_abi_1"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.CPU_ABI_1"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.CPU_ABI_2"/>
+
+            <EditText
+                android:id="@+id/build_cpu_abi_2"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.CPU_ABI_2"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.SUPPORTED_ABIS"/>
+
+            <EditText
+                android:id="@+id/build_supported_abis"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.SUPPORTED_ABIS"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="不能修改，通过反射获取的"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.RADIO"/>
+
+            <EditText
+                android:id="@+id/build_radio"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.RADIO"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.TIME"/>
+
+            <EditText
+                android:id="@+id/build_time"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.TIME"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.TYPE"/>
+
+            <EditText
+                android:id="@+id/build_type"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.TYPE"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.TAGS"/>
+
+            <EditText
+                android:id="@+id/build_tags"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.TAGS"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION_CODES.BASE"/>
+
+            <EditText
+                android:id="@+id/build_version_codes_base"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION_CODES.BASE"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION.SDK"/>
+
+            <EditText
+                android:id="@+id/build_version_sdk"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION.SDK"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION.SDK_INT"/>
+
+            <EditText
+                android:id="@+id/build_version_sdk_int"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION.SDK_INT"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION.RELEASE"/>
+
+            <EditText
+                android:id="@+id/build_version_release"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION.RELEASE"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION.CODENAME"/>
+
+            <EditText
+                android:id="@+id/build_version_codename"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION.CODENAME"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.VERSION.INCREMENTAL"/>
+
+            <EditText
+                android:id="@+id/build_version_incremental"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.VERSION.INCREMENTAL"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.ID"/>
+
+            <EditText
+                android:id="@+id/build_id"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.ID"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Build.USER"/>
+
+            <EditText
+                android:id="@+id/build_user"
+                style="@style/Item.Edit"
+                android:hint="请输入Build.USER"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="networkOperator"/>
+
+            <EditText
+                android:id="@+id/networkOperator"
+                style="@style/Item.Edit"
+                android:hint="请输入networkOperator"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="networkOperatorName"/>
+
+            <EditText
+                android:id="@+id/networkOperatorName"
+                style="@style/Item.Edit"
+                android:hint="请输入networkOperatorName"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="networkCountryIso"/>
+
+            <EditText
+                android:id="@+id/networkCountryIso"
+                style="@style/Item.Edit"
+                android:hint="请输入networkCountryIso"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="simSerialNum"/>
+
+            <EditText
+                android:id="@+id/simSerialNum"
+                style="@style/Item.Edit"
+                android:hint="请输入simSerialNum"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rsimSerialNum"
+                style="@style/Item.Button"
+                android:text="随机"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="IMSI"/>
+
+            <EditText
+                android:id="@+id/imsi"
+                style="@style/Item.Edit"
+                android:hint="请输入IMSI"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rimsi"
+                style="@style/Item.Button"
+                android:text="随机"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="mcc"/>
+
+            <EditText
+                android:id="@+id/mcc"
+                style="@style/Item.Edit"
+                android:hint="请输入mcc"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text=""/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="mnc"/>
+
+            <EditText
+                android:id="@+id/mnc"
+                style="@style/Item.Edit"
+                android:hint="请输入mnc"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text=""/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="System Language"/>
+
+            <EditText
+                android:id="@+id/sys_language"
+                style="@style/Item.Edit"
+                android:hint="请输入country"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text=""/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="simOperator"/>
+
+            <EditText
+                android:id="@+id/simOperator"
+                style="@style/Item.Edit"
+                android:hint="请输入simOperator"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="simOperatorName"/>
+
+            <EditText
+                android:id="@+id/simOperatorName"
+                style="@style/Item.Edit"
+                android:hint="请输入simOperatorName"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="IMEI"/>
+
+            <EditText
+                android:id="@+id/imei"
+                style="@style/Item.Edit"
+                android:hint="请输入IMEI"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rimei"
+                style="@style/Item.Button"
+                android:text="随机"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="tel"/>
+
+            <EditText
+                android:id="@+id/tel"
+                style="@style/Item.Edit"
+                android:hint="请输入tel"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rtel"
+                style="@style/Item.Button"
+                android:text="随机"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="softwareVersion"/>
+
+            <EditText
+                android:id="@+id/softwareVersion"
+                style="@style/Item.Edit"
+                android:hint="请输入softwareVersion"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="simCountryIso"/>
+
+            <EditText
+                android:id="@+id/simCountryIso"
+                style="@style/Item.Edit"
+                android:hint="请输入simCountryIso"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="baseband"/>
+
+            <EditText
+                android:id="@+id/baseband"
+                style="@style/Item.Edit"
+                android:hint="请输入baseband"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Secure.ANDROID_ID"/>
+
+            <EditText
+                android:id="@+id/ANDROID_ID"
+                style="@style/Item.Edit"
+                android:hint="请输入Secure.ANDROID_ID"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rANDROID_ID"
+                style="@style/Item.Button"
+                android:text="随机"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="wifimac"/>
+
+            <EditText
+                android:id="@+id/wifimac"
+                style="@style/Item.Edit"
+                android:hint="请输入wifimac"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rwifimac"
+                style="@style/Item.Button"
+                android:text="随机"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="bluetoothmac"/>
+
+            <EditText
+                android:id="@+id/bluetoothmac"
+                style="@style/Item.Edit"
+                android:hint="请输入bluetooth mac"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/rbluetoothmac"
+                style="@style/Item.Button"
+                android:text="随机"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="ip"/>
+
+            <EditText
+                android:id="@+id/ip"
+                style="@style/Item.Edit"
+                android:hint="请输入ip"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="bssid"/>
+
+            <EditText
+                android:id="@+id/bssid"
+                style="@style/Item.Edit"
+                android:hint="请输入bssid"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="ssid"/>
+
+            <EditText
+                android:id="@+id/ssid"
+                style="@style/Item.Edit"
+                android:hint="请输入ssid"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="description"/>
+
+            <EditText
+                android:id="@+id/description"
+                style="@style/Item.Edit"
+                android:hint="need confirm"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="命令行获取，无法修改"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="userAgent"/>
+
+            <EditText
+                android:id="@+id/useragent"
+                style="@style/Item.Edit"
+                android:hint="请输入user agent"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Sensor"/>
+
+            <EditText
+                android:id="@+id/sensor"
+                style="@style/Item.Edit"
+                android:hint="请输入Sensor"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="InstalledApp"/>
+
+            <EditText
+                android:id="@+id/installedApp"
+                style="@style/Item.Edit"
+                android:hint="请输入InstalledApp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="RunningApp"/>
+
+            <EditText
+                android:id="@+id/runningApp"
+                style="@style/Item.Edit"
+                android:hint="请输入RunningApp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/proc/version"/>
+
+            <EditText
+                android:id="@+id/proc_version"
+                style="@style/Item.Edit"
+                android:hint="请输入/proc/version"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/proc/mounts"/>
+
+            <EditText
+                android:id="@+id/proc_mounts"
+                style="@style/Item.Edit"
+                android:hint="请输入/proc/mounts"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/proc/filesystems"/>
+
+            <EditText
+                android:id="@+id/proc_filesystems"
+                style="@style/Item.Edit"
+                android:hint="请输入/proc/filesystems"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/proc/diskstats"/>
+
+            <EditText
+                android:id="@+id/proc_diskstats"
+                style="@style/Item.Edit"
+                android:hint="请输入/proc/diskstats"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/proc/cpuinfo.model_name"/>
+
+            <EditText
+                android:id="@+id/proc_cpuinfo_model_name"
+                style="@style/Item.Edit"
+                android:hint="请输入/proc/cpuinfo.model_name"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/system/etc"/>
+
+            <EditText
+                android:id="@+id/system_etc"
+                style="@style/Item.Edit"
+                android:hint="请输入/system/etc"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/dev"/>
+
+            <EditText
+                android:id="@+id/dev"
+                style="@style/Item.Edit"
+                android:hint="请输入/dev"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/system/bin"/>
+
+            <EditText
+                android:id="@+id/system_bin"
+                style="@style/Item.Edit"
+                android:hint="请输入/system/bin"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="/system/lib"/>
+
+            <EditText
+                android:id="@+id/system_lib"
+                style="@style/Item.Edit"
+                android:hint="请输入/system/lib"/>
+
+            <TextView
+                style="@style/Item.Button"
+                android:text="二次hook"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="$PATH"/>
+
+            <EditText
+                android:id="@+id/path"
+                style="@style/Item.Edit"
+                android:hint="请输入$PATH"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="intent_main_action"/>
+
+            <EditText
+                android:id="@+id/intent_main_action"
+                style="@style/Item.Edit"
+                android:hint="请输入Intent_Main_Action"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Broadcast_Receivers"/>
+
+            <EditText
+                android:id="@+id/broadcast_receivers"
+                style="@style/Item.Edit"
+                android:hint="Broadcast Receivers"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="java info"/>
+
+            <!-- <EditText
+                android:id="@+id/javainfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:textIsSelectable="true"
+                android:scrollbars="vertical"
+                android:hint="java info"/> -->
+            <EditText
+                android:id="@+id/javainfo"
+                style="@style/Item.Edit"
+                android:hint="java info"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="GL Info"/>
+
+            <EditText
+                android:id="@+id/glinfo"
+                style="@style/Item.Edit"
+                android:hint="gl info"
+                android:singleLine="true"/>
+
+            <android.opengl.GLSurfaceView
+                android:id="@+id/glSurface"
+                android:layout_height="8dp"
+                android:layout_width="8dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="build prop"/>
+
+            <EditText
+                android:id="@+id/buildprop"
+                style="@style/Item.Edit"
+                android:hint="build prop"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="getprop"/>
+
+            <EditText
+                android:id="@+id/getprop"
+                style="@style/Item.Edit"
+                android:hint="getprop"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="NetworkInterface"/>
+
+            <EditText
+                android:id="@+id/netinter"
+                style="@style/Item.Edit"
+                android:hint="NetworkInterface"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Battery"/>
+
+            <EditText
+                android:id="@+id/battery"
+                style="@style/Item.Edit"
+                android:hint="Battery"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
+                android:text="Cell Info"/>
+
+            <EditText
+                android:id="@+id/cellInfo"
+                style="@style/Item.Edit"
+                android:hint="all cell info"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
