@@ -15,6 +15,20 @@
 
             <TextView
                 style="@style/Item.Label"
+                android:text="UUID"/>
+
+            <EditText
+                android:id="@+id/uuid"
+                style="@style/Item.Edit"
+                android:hint="uuid"
+                android:singleLine="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/Item.Layout2" >
+
+            <TextView
+                style="@style/Item.Label"
                 android:text="screen density"/>
 
             <EditText

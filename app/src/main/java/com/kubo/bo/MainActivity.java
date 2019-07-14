@@ -39,6 +39,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.UUID;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
@@ -147,6 +148,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.e(TAG, "init.......");
         Log.e(TAG, "init  phoneInfo " +phoneInfo);
         try {
+            setEditText(R.id.uuid, UUID.randomUUID().toString());
             setEditText(R.id.screen_density, getScreenDensity_ByResources());
             setEditText(R.id.build_model, android.os.Build.MODEL);	//cannot  modify on d4
             setEditText(R.id.build_manufacturer, android.os.Build.MANUFACTURER);	//cannot  modify on d4
@@ -240,7 +242,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void getBatteryInfo() {
-
         mBatInfoReceiver = new BroadcastReceiver() {
             int BatteryN, BatteryV, BatteryT;
             String BatteryStatus, BatteryTemp;
@@ -354,6 +355,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void getProp() {
         Log.e(TAG, "getProp......");
         Log.e(TAG, "getProp  phoneInfo " +phoneInfo);
+        phoneInfo += "uuid:" + getEditText(R.id.uuid) + "\n";
         phoneInfo += "screen density:" + getEditText(R.id.screen_density) + "\n";
         phoneInfo += "Build.MODEL: " + getEditText(R.id.build_model) + "\n";
         phoneInfo += "Build.MANUFACTURER: " + getEditText(R.id.build_manufacturer) + "\n";
@@ -391,7 +393,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         phoneInfo += "imsi: " + getEditText(R.id.imsi) + "\n";
         //modem.serial confirm
         phoneInfo += "simSerialNum: " + getEditText(R.id.simSerialNum) + "\n";
-        //modem.phonumber
         phoneInfo += "tel: " + getEditText(R.id.tel) + "\n";
         phoneInfo += "Secure.ANDROID_ID: " + getEditText(R.id.ANDROID_ID) + "\n";
         phoneInfo += "wifimac: " + getEditText(R.id.wifimac) + "\n";
