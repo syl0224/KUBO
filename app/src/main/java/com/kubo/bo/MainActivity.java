@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String imei = "";
     private String systemInfo = "";	// system/etc,lib,bin
     private String procInfo = "";	// /proc/version, /proc/mounts, /proc/filesystems, /proc/diskstats
-    private String javaInfo = "";	//java info
 
     private JSONParser jsonParser;
     private static String host = "http://kubooo.duapp.com/";
@@ -133,12 +132,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
     }
 
-    //set EditText
     private void setEditText(int id, String s) {
         ((EditText)this.findViewById(id)).setText(s);
     }
 
-    //get EditText
     private String getEditText(int id) {
         return ((EditText)this.findViewById(id)).getText().toString();
     }
@@ -335,11 +332,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void getOpenGLInfo() {
-        //activity_main.xml add android.opengl.GLSurfaceView
+        // activity_main.xml add android.opengl.GLSurfaceView
 
         mOpenGLReceiver = new BroadcastReceiver() {
             public void onReceive(Context arg0, Intent arg1) {
-                // TODO Auto-generated method stub
                 Log.e(TAG, "getOpenGLInfo receive......");
                 String glinfo = arg1.getStringExtra("glinfo");
                 setEditText(R.id.glinfo, glinfo);
@@ -487,8 +483,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             try {
                 Log.e(TAG, "makeHttpRequest......");
-                JSONObject json = jsonParser.makeHttpRequest(url,
-                     "POST", params);
+                JSONObject json = jsonParser.makeHttpRequest(url, "POST", params);
                 //String message = json.getString(TAG_MESSAGE);
                 Log.d(TAG, "json: "+json);
                 String message = json.optString(UPLOAD_TAG_MESSAGE);
